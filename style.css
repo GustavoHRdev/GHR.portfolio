@@ -951,3 +951,70 @@ input[type="email"] {
     cursor: pointer;
   }
 }
+@media (max-width: 480px) {
+  html {
+    font-size: 50%; /* reduz tamanho base das fontes para melhor encaixe */
+  }
+
+  /* Ajuste da home para layout vertical e espaçamento menor */
+  .home {
+    flex-direction: column !important;
+    gap: 3rem !important;
+    padding: 2rem 1rem;
+  }
+
+  .home-content h1 {
+    font-size: 4rem !important;
+  }
+
+  .home-content h3 {
+    font-size: 2rem !important;
+  }
+
+  section {
+    padding: 4rem 5% !important;
+  }
+
+  /* Ajuste cards de projeto para largura fluida e altura automática */
+  .project-card {
+    min-height: auto !important;
+    max-width: 100% !important;
+    padding: 2rem 1rem !important;
+  }
+
+  .project-card img {
+    max-width: 100% !important;
+    height: auto !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Navbar (menu) mobile */
+  #menu-icon {
+    display: block !important;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+
+  /* Logo menor */
+  .logo {
+    font-size: 2.5rem !important;
+    margin-left: 1rem !important;
+  }
+
+  /* Botões e textos menores */
+  .navbar a,
+  .gradient-btn,
+  .btn,
+  .btn-group a:nth-of-type(2),
+  #lang-toggle {
+    font-size: 1.2rem !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  /* Ajustes para evitar overflow horizontal */
+  body, html {
+    overflow-x: hidden !important;
+  }
+}
