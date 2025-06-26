@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🌐 Gustavo Honorio | Frontend Developer • Building Modern Web Experiences</title>
+    <title data-en="🌐 Gustavo Honorio | Frontend Developer • Building Modern Web Experiences"
+           data-pt="🌐 Gustavo Honorio | Desenvolvedor Frontend • Construindo Experiências Modernas">🌐 Gustavo Honorio | Desenvolvedor Frontend • Construindo Experiências Modernas</title>
     <link rel="stylesheet" href="style.css" />
     <link 
         href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -13,216 +14,408 @@
 <body>
 
 <header class="header">
-    <a href="#home" class="logo">Gustavo <span>Honorio</span></a>
-    <i class="bx bx-menu" id="menu-icon"></i>    
-    <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-   <a 
-  href="https://www.linkedin.com/in/gustavohrdev/" 
-  class="gradient-btn" 
-  target="_blank" 
-  rel="noopener noreferrer">
-  Contact Me
-</a>
+  <a href="#home" class="logo">Gustavo <span>Honorio</span></a>
 
+  <nav class="navbar">
+    <a href="#home" data-en="Home" data-pt="Início">Home</a>
+    <a href="#about" data-en="About" data-pt="Sobre">About</a>
+    <a href="#services" data-en="Services" data-pt="Serviços">Services</a>
+    <a href="#projects" data-en="Projects" data-pt="Projetos">Projects</a>
+    <a href="#contact" data-en="Contact" data-pt="Contato">Contact</a>
+  </nav>
 
+  <div class="header-controls">
+          <a
+        href="https://www.linkedin.com/in/gustavohrdev/"
+        class="contact-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-en="Contact Me"
+        data-pt="Contato"
+      >
+        Contact Me
+      </a>
+    <button id="lang-toggle">EN/PT</button>
+    <i class="bx bx-menu" id="menu-icon"></i>
+  </div>
 </header>
+
 
 <!-- Home Section -->
 <section class="home" id="home">
     <div class="home-content">
-        <h1>Hi, it's <span>Gustavo</span></h1>
-        <h3>I'm a <span>Frontend Developer</span> </h3>
-        <p>Passionate about building modern, responsive, and user-friendly interfaces, I focus on creating seamless digital experiences with technologies like React, Next.js, TypeScript, and more. Always learning, coding, and sharing knowledge to help turn ideas into reality.</p>
+        <h1 data-en="Hi, it's <span>Gustavo</span>" data-pt="Oi, eu sou o <span>Gustavo</span>">Oi, eu sou o <span>Gustavo</span></h1>
+        <h3 data-en="I'm a <span>Frontend Developer</span>" data-pt="Sou um <span>Desenvolvedor Frontend</span>">Sou um <span>Desenvolvedor Frontend</span></h3>
+        <p data-en="Passionate about building modern, responsive, and user-friendly interfaces, I focus on creating seamless digital experiences with technologies like React, Next.js, TypeScript, and more. Always learning, coding, and sharing knowledge to help turn ideas into reality."
+           data-pt="Apaixonado por construir interfaces modernas, responsivas e amigáveis, foco em criar experiências digitais fluídas com tecnologias como React, Next.js, TypeScript e mais. Sempre aprendendo, codificando e compartilhando conhecimento para ajudar a transformar ideias em realidade.">
+           Apaixonado por construir interfaces modernas, responsivas e amigáveis, foco em criar experiências digitais fluídas com tecnologias como React, Next.js, TypeScript e mais. Sempre aprendendo, codificando e compartilhando conhecimento para ajudar a transformar ideias em realidade.
+        </p>
         <div class="social-icons">
-    <a href="https://github.com/GustavoHRdev" target="_blank"><i class="bx bxl-github"></i></a>
-    <a href="https://www.linkedin.com/in/gustavohrdev" target="_blank"><i class="bx bxl-linkedin"></i></a>
-    <a href="https://www.instagram.com/gustavohonorio_r/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
-    <a href="https://wa.me/5543996448129" target="_blank"><i class="bx bxl-whatsapp"></i></a>
-</div>
+            <a href="https://github.com/GustavoHRdev" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/gustavohrdev" target="_blank"><i class="bx bxl-linkedin"></i></a>
+           <a href="mailto:gustavohonorio.GR@gmail.com" title="Enviar email para Gustavo Honorio">
+              <i class="bx bx-envelope"></i>
+            </a>
+            <a href="https://wa.me/5543996448129" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        </div>
 
         <div class="btn-group">
-            <a href="#" class="btn">Hire</a>
-            <a href="#contact" class="btn">Contact</a>
+            <a href="#" class="btn" data-en="Hire" data-pt="Contratar">Contratar</a>
+            <a href="#contact" class="btn" data-en="Contact" data-pt="Contato">Contato</a>
         </div>
     </div>
     <div class="home-img">
-        <img src="image/picture.jpg" alt="">
+        <img src="image/FotoGH.jpg" alt="" />
     </div>
 </section>
 
 <!-- About Section -->
 <section class="about" id="about">
     <div class="about-img">
-        <img src="image/versaoanime.png" alt="">
+        <img src="image/versaoGHR.png" alt="" />
     </div>
     <div class="about-content">
-        <h2>About <span>Me</span></h2>
-    <p>
-      I am a Front-End Developer passionate about creating modern, responsive and intuitive interfaces, focused on providing the best user experience. I have solid knowledge in technologies such as React.js, Next.js, TypeScript, JavaScript, HTML and CSS, applying best practices in UI/UX and component architecture
-    </p>
-    <p>
-        In addition to the front-end, I have knowledge in backend, using tools such as Node.js and databases, which allows me to understand and collaborate on fullstack projects more efficiently
-    </p>
-    <p>
-      I believe in continuous learning, teamwork and clear communication to deliver solutions that truly add value to people and businesses. I am currently looking for my first opportunity as a remote Junior Front-End Developer.
-    </p>
-
-        <a href="#" class="btn">Read More</a>
+        <h2 data-en="About <span>Me</span>" data-pt="Sobre <span>Mim</span>">Sobre <span>Mim</span></h2>
+        <p data-en="I am a Front-End Developer passionate about creating modern, responsive and intuitive interfaces, focused on providing the best user experience. I have solid knowledge in technologies such as React.js, Next.js, TypeScript, JavaScript, HTML and CSS, applying best practices in UI/UX and component architecture"
+           data-pt="Sou um Desenvolvedor Front-End apaixonado por criar interfaces modernas, responsivas e intuitivas, focado em fornecer a melhor experiência ao usuário. Tenho conhecimento sólido em tecnologias como React.js, Next.js, TypeScript, JavaScript, HTML e CSS, aplicando boas práticas em UI/UX e arquitetura de componentes.">
+           Sou um Desenvolvedor Front-End apaixonado por criar interfaces modernas, responsivas e intuitivas, focado em fornecer a melhor experiência ao usuário. Tenho conhecimento sólido em tecnologias como React.js, Next.js, TypeScript, JavaScript, HTML e CSS, aplicando boas práticas em UI/UX e arquitetura de componentes.
+        </p>
+        <p data-en="In addition to the front-end, I have knowledge in backend, using tools such as Node.js and databases, which allows me to understand and collaborate on fullstack projects more efficiently"
+           data-pt="Além do front-end, tenho conhecimento em backend, utilizando ferramentas como Node.js e bancos de dados, o que me permite entender e colaborar melhor em projetos fullstack.">
+           Além do front-end, tenho conhecimento em backend, utilizando ferramentas como Node.js e bancos de dados, o que me permite entender e colaborar melhor em projetos fullstack.
+        </p>
+        <p data-en="I believe in continuous learning, teamwork and clear communication to deliver solutions that truly add value to people and businesses. I am currently looking for my first opportunity as a remote Junior Front-End Developer."
+           data-pt="Acredito no aprendizado contínuo, trabalho em equipe e comunicação clara para entregar soluções que realmente agreguem valor para pessoas e empresas. Atualmente busco minha primeira oportunidade como Desenvolvedor Front-End Júnior remoto.">
+           Acredito no aprendizado contínuo, trabalho em equipe e comunicação clara para entregar soluções que realmente agreguem valor para pessoas e empresas. Atualmente busco minha primeira oportunidade como Desenvolvedor Front-End Júnior remoto.
+        </p>
+        <a href="#" class="btn" data-en="Read More" data-pt="Leia Mais">Leia Mais</a>
     </div>
 </section>
 
 <!-- Services Section -->
 <section class="services" id="services">
-    <h2 class="heading">Services</h2>
+    <h2 class="heading" data-en="Services" data-pt="Serviços">Serviços</h2>
     <div class="services-container">
         <div class="service-box">
             <div class="service-info">
                 <i class="bx bxl-figma"></i>
-                <h4>UI / UX Design</h4>
-                <p>I create user-focused, accessible and responsive interfaces that transform ideas into intuitive and functional experiences. Using good design practices to ensure efficiency and user satisfaction.</p>
+                <h4 class="service-title" data-en="UI / UX Design" data-pt="Design UI / UX">Design UI / UX</h4>
+                 <p data-en="I create user-focused, accessible, and responsive interfaces that transform ideas into intuitive and functional experiences. I apply best design practices to ensure efficiency and user satisfaction."
+           data-pt="Desenvolvo interfaces focadas no usuário, acessíveis e responsivas que transformam ideias em experiências intuitivas e funcionais. Aplico as melhores práticas de design para garantir eficiência e satisfação do usuário.">
+           Desenvolvo interfaces focadas no usuário, acessíveis e responsivas que transformam ideias em experiências intuitivas e funcionais. Aplico as melhores práticas de design para garantir eficiência e satisfação do usuário.
+        </p>
             </div>
         </div>
-
         <div class="service-box">
             <div class="service-info">
                 <i class="bx bx-code"></i>
-                <h4>Frontend Development</h4>
-                <p>I develop modern, responsive and accessible interfaces with React.js, Next.js, TypeScript, JavaScript, HTML5 and CSS3, always aligned with best practices to provide a great user experience.</p>
+                <h4 class="service-title" data-en="Frontend Developer" data-pt="Dev Frontend">Dev Frontend</h4>
+                <p data-en="I build modern, responsive, and accessible interfaces using React.js, Next.js, TypeScript, JavaScript, HTML5, and CSS3, following best practices to deliver excellent user experiences."
+           data-pt="Desenvolvo interfaces modernas, responsivas e acessíveis com React.js, Next.js, TypeScript, JavaScript, HTML5 e CSS3, seguindo as melhores práticas para entregar experiências excelentes aos usuários.">
+           Desenvolvo interfaces modernas, responsivas e acessíveis com React.js, Next.js, TypeScript, JavaScript, HTML5 e CSS3, seguindo as melhores práticas para entregar experiências excelentes aos usuários.
+        </p>
             </div>
         </div>
-
         <div class="service-box">
             <div class="service-info">
                 <i class="bx bx-code-alt"></i>
-                <h4>Fullstack Development</h4>
-                <p>I have knowledge in backend with Node.js, REST APIs and databases, integrating front-end and back-end to build complete and scalable applications.</p>
+                <h4 class="service-title" data-en="Fullstack Developer" data-pt="Dev Fullstack">Dev Fullstack</h4>
+                <p data-en="I develop backend solutions with Node.js, REST APIs, and databases, integrating frontend and backend to build complete and scalable applications."
+           data-pt="Desenvolvo soluções backend com Node.js, APIs REST e bancos de dados, integrando frontend e backend para criar aplicações completas e escaláveis.">
+           Desenvolvo soluções backend com Node.js, APIs REST e bancos de dados, integrando frontend e backend para criar aplicações completas e escaláveis.
+        </p>
             </div>
         </div>
-    </div> <!-- FIM .services-container -->
-</section>
-
-<section class="projects" id="projects">
-
-    <h2 class="heading">Projects</h2>
-
-    <div class="projects-box">
-
-        <div class="project-card">
-            <img src="image/project1.png" alt="">
-
-            <h3>Project 1</h3>
-            <p>Modern, responsive weather app with OpenWeatherMap API integration to display real-time temperature, humidity and wind speed.</p>
-             <a href="https://gustavohrdev.github.io/Weather-App/" target="_blank" class="btn">Review Project</a>
-
-
-        </div>
-
-        <div class="project-card">
-            <img src="image/project2.png" alt="">
-
-            <h3>Project 2</h3>
-            <p>Simple and responsive to-do list app with browser storage (localStorage) to add, complete and delete tasks in a practical and intuitive way.</p>
-            <a href="https://gustavohrdev.github.io/To-Do-List-App/" target="_blank" class="btn">Review Project</a>
-
-            
-        </div>
-
-        <div class="project-card">
-            <img src="image/project3.png" alt="">
-
-            <h3>Project 3</h3>
-            <p>Simple and responsive QR Code generator, integrated with an external API to transform text or links into instant QR Codes.</p>
-           <a href="https://gustavohrdev.github.io/QR-code-generator/" target="_blank" class="btn">Review Project</a>
-
-            
-        </div>
-
-        <div class="project-card">
-            <img src="image/project4.png" alt="">
-
-            <h3>Project 4</h3>
-            <p>Functional and stylish calculator with professional dark theme and robust logic to prevent common errors. Fully responsive and with smooth animations to improve user experience.</p>
-             <a href="https://gustavohrdev.github.io/Calculadora-Responsiva-/" target="_blank" class="btn">Review Project</a>
-
-            
+        <div class="service-box">
+            <div class="service-info">
+                <i class="bx bx-briefcase-alt"></i>
+                <h4 class="service-title" data-en="Freelance Developer" data-pt="Dev Freelancer">Dev Freelancer</h4>
+                <p data-en="I work on freelance projects, developing websites, interfaces and custom digital solutions. I help companies and individuals transform ideas into functional and impactful online experiences."
+                   data-pt="Atuo em projetos freelance, desenvolvendo sites, interfaces e soluções digitais sob medida. Auxilio empresas e pessoas a transformar ideias em experiências online funcionais e impactantes.">
+                   Atuo em projetos freelance, desenvolvendo sites, interfaces e soluções digitais sob medida. Auxilio empresas e pessoas a transformar ideias em experiências online funcionais e impactantes
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
+<!-- Projects Section -->
+<section class="projects" id="projects">
+    <h2 class="heading" data-en="Projects" data-pt="Projetos">Projetos</h2>
+    <div class="projects-box">
 
-<section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me</span></h2>
-
-    <form id="contactForm" action="https://formspree.io/f/xovwnblp" method="POST">
-        <div class="input-group">
-            <div class="input-box">
-                <input type="text" name="name" placeholder="Full Name" required />
-                <input type="email" name="email" placeholder="Email" required />
-            </div>
-            <div class="input-box">
-                <input type="tel" name="phone" placeholder="Phone Number" />
-                <input type="text" name="subject" placeholder="Subject" required />
-            </div>
+        <div class="project-card">
+            <img src="image/projectWeather.png" alt="" loading="lazy"  />
+            <h3 data-en="Weather-App" data-pt="Aplicativo do Tempo">Aplicativo do Tempo</h3>
+            <p data-en="Real-time weather app fetching data from OpenWeatherMap API to display temperature, humidity, and wind speed. Features a modern, responsive UI built with JavaScript, HTML, and CSS, perfect for quick weather checks on any device."
+               data-pt="Aplicativo de clima em tempo real que busca dados da API OpenWeatherMap para mostrar temperatura, umidade e velocidade do vento. Interface moderna e responsiva feita com JavaScript, HTML e CSS, perfeita para consultas rápidas em qualquer dispositivo.">
+               Aplicativo de clima em tempo real que busca dados da API OpenWeatherMap para mostrar temperatura, umidade e velocidade do vento. Interface moderna e responsiva feita com JavaScript, HTML e CSS, perfeita para consultas rápidas em qualquer dispositivo.
+            </p>
+            <a href="https://gustavohrdev.github.io/Weather-App/" target="_blank" class="btn" data-en="Review Project" data-pt="Ver Projeto">Ver Projeto</a>
         </div>
 
-        <div class="input-group-2">
-            <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
-            <input type="submit" value="Send Message" class="btn" />
+        <div class="project-card">
+            <img src="image/projectTo-do.png" alt="" loading="lazy"  />
+            <h3 data-en="To-Do-List-App" data-pt="Aplicativo de Lista de Tarefas">Aplicativo de Lista de Tarefas</h3>
+            <p data-en="A simple, intuitive to-do list app with localStorage integration, enabling users to add, complete, and delete tasks effortlessly. Built with vanilla JavaScript, HTML, and CSS, focused on clean UI and seamless user experience."
+               data-pt="Um aplicativo simples e intuitivo de lista de tarefas com integração localStorage, permitindo adicionar, concluir e excluir tarefas facilmente. Construído com JavaScript puro, HTML e CSS, focado em UI limpa e experiência fluida.">
+               Um aplicativo simples e intuitivo de lista de tarefas com integração localStorage, permitindo adicionar, concluir e excluir tarefas facilmente. Construído com JavaScript puro, HTML e CSS, focado em UI limpa e experiência fluida.
+            </p>
+            <a href="https://gustavohrdev.github.io/To-Do-List-App/" target="_blank" class="btn" data-en="Review Project" data-pt="Ver Projeto">Ver Projeto</a>
         </div>
 
-        <!-- Anti-spam honeypot (invisível para humanos) -->
-        <input type="text" name="_honey" style="display:none" />
-    </form>
+        <div class="project-card">
+            <img src="image/projectQR.png" alt="" loading="lazy"  />
+            <h3 data-en="QR-code-generator" data-pt="Gerador de QR Code">Gerador de QR Code</h3>
+            <p data-en="Instant QR code generator that converts text or URLs into scannable QR codes using an external API. Responsive and easy to use, designed with JavaScript, HTML, and CSS for quick sharing of information."
+               data-pt="Gerador instantâneo de QR Code que converte texto ou URLs em códigos escaneáveis usando API externa. Responsivo e fácil de usar, projetado com JavaScript, HTML e CSS para compartilhamento rápido.">
+               Gerador instantâneo de QR Code que converte texto ou URLs em códigos escaneáveis usando API externa. Responsivo e fácil de usar, projetado com JavaScript, HTML e CSS para compartilhamento rápido.
+            </p>
+            <a href="https://gustavohrdev.github.io/QR-code-generator/" target="_blank" class="btn" data-en="Review Project" data-pt="Ver Projeto">Ver Projeto</a>
+        </div>
 
-    <div id="formMessage" style="display:none; font-size:1.5rem; color:var(--main-color); margin-top:1rem;"></div>
+        <div class="project-card">
+            <img src="image/projectCalc.png" alt="" loading="lazy"  />
+            <h3 data-en="ProCalc Dark Mode" data-pt="Calculadora ProCalc Modo Escuro">Calculadora ProCalc Modo Escuro</h3>
+            <p data-en="Stylish and fully responsive calculator with a sleek dark theme and smooth animations. Developed with JavaScript, HTML5, and CSS3, featuring robust logic to prevent common user errors and enhance usability on all screen sizes."
+               data-pt="Calculadora elegante e totalmente responsiva com tema escuro e animações suaves. Desenvolvida com JavaScript, HTML5 e CSS3, com lógica robusta para evitar erros comuns e melhorar usabilidade em todas as telas.">
+               Calculadora elegante e totalmente responsiva com tema escuro e animações suaves. Desenvolvida com JavaScript, HTML5 e CSS3, com lógica robusta para evitar erros comuns e melhorar usabilidade em todas as telas.
+            </p>
+            <a href="https://gustavohrdev.github.io/Calculadora-Responsiva-/" target="_blank" class="btn" data-en="Review Project" data-pt="Ver Projeto">Ver Projeto</a>
+        </div>
+
+        <div class="project-card">
+            <img src="image/projetoLink.PNG" alt="" loading="lazy"  />
+            <h3 data-en="LinkHub Pro" data-pt="LinkHub Pro">LinkHub Pro</h3>
+            <p data-en="Modern personal link hub consolidating professional resume, social profiles, and contact options. Features accessible SVG icons, smooth animations, and a responsive design that adapts seamlessly across devices. Built with HTML, CSS, and JavaScript."
+               data-pt="Centralizador moderno de links pessoais com currículo profissional, perfis sociais e opções de contato. Ícones SVG acessíveis, animações suaves e design responsivo que se adapta a todos os dispositivos. Desenvolvido com HTML, CSS e JavaScript.">
+               Centralizador moderno de links pessoais com currículo profissional, perfis sociais e opções de contato. Ícones SVG acessíveis, animações suaves e design responsivo que se adapta a todos os dispositivos. Desenvolvido com HTML, CSS e JavaScript.
+            </p>
+            <a href="https://gustavohrdev.github.io/Linktree-GHR/" alt="" loading="lazy"  target="_blank" class="btn" data-en="Review Project" data-pt="Ver Projeto">Ver Projeto</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <h2 class="heading" data-en="Skills" data-pt="Habilidades">Habilidades</h2>
+
+  <div class="vertical-skills-container">
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 85%;"></div>
+    </div>
+    <p>React.js</p>
+    <span>85%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 75%;"></div>
+    </div>
+    <p>Next.js</p>
+    <span>75%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 65%;"></div>
+    </div>
+    <p>TypeScript</p>
+    <span>65%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 80%;"></div>
+    </div>
+    <p>JavaScript</p>
+    <span>80%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 70%;"></div>
+    </div>
+    <p>CSS3</p>
+    <span>70%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 90%;"></div>
+    </div>
+    <p>HTML5</p>
+    <span>90%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 60%;"></div>
+    </div>
+    <p>Git</p>
+    <span>60%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 60%;"></div>
+    </div>
+    <p>REST APIs</p>
+    <span>60%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 50%;"></div>
+    </div>
+    <p>UI/UX</p>
+    <span>50%</span>
+  </div>
+
+  <div class="skill-vertical">
+    <div class="skill-bar-vertical">
+      <div class="skill-fill" style="--level: 75%;"></div>
+    </div>
+    <p>Responsive Design</p>
+    <span>75%</span>
+  </div>
+
+</div>
+
+  <h3 class="subheading gradient-subheading" data-en="Soft Skills" data-pt="Habilidades Comportamentais" style="margin-top: 2.5rem;">
+    Habilidades Comportamentais
+  </h3>
+
+ <ul class="soft-skills">
+  <li><span class="en">Creativity</span><span class="pt">Criatividade</span></li>
+  <li><span class="en">Proactivity</span><span class="pt">Proatividade</span></li>
+  <li><span class="en">Communication</span><span class="pt">Comunicação</span></li>
+  <li><span class="en">Adaptability</span><span class="pt">Adaptabilidade</span></li>
+  <li><span class="en">Critical Thinking</span><span class="pt">Pensamento Crítico</span></li>
+  <li><span class="en">Time Management</span><span class="pt">Gestão do Tempo</span></li>
+  <li><span class="en">Continuous Learning</span><span class="pt">Aprendizado Contínuo</span></li>
+  <li><span class="en">Responsibility</span><span class="pt">Responsabilidade</span></li>
+  <li><span class="en">Attention to Detail</span><span class="pt">Atenção aos Detalhes</span></li>
+</ul>
+
+
 </section>
 
 
-<footer class="footer">
+  
 
-    <div class="social-icons">
-            <a href="#"><i class="bx bxl-github"></i></a>
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
-            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-            <a href="#"><i class="bx bxl-whatsapp"></i></a>
-        </div>
 
-        <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2 class="heading" data-en="Contact <span>Me</span>" data-pt="Entre em contato <span>comigo</span>">
+    Contact <span>Me</span>
+  </h2>
+  <p
+    data-en="Want to get in touch? Feel free to reach out through any of the platforms listed above or send me a message using the form below."
+    data-pt="Quer entrar em contato? Fique à vontade para me procurar por qualquer uma das plataformas acima ou envie uma mensagem usando o formulário abaixo."
+  >
+    Want to get in touch? Feel free to reach out through any of the platforms listed above or send me a message using the form below.
+  </p>
 
-             <li>
-                <a href="@services">Services</a>
-            </li>
+  <form id="contactForm" action="https://formspree.io/f/xovwnblp" method="POST">
+    <div class="input-group">
+      <div class="input-box">
+        <input
+          type="text"
+          name="name"
+          placeholder="Full Name"
+          required
+          data-en="Full Name"
+          data-pt="Nome completo"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+          data-en="Email"
+          data-pt="Email"
+        />
+      </div>
+      <div class="input-box">
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Phone Number"
+          data-en="Phone Number"
+          data-pt="Número de Telefone"
+        />
+        <input
+          type="text"
+          name="subject"
+          placeholder="Subject"
+          required
+          data-en="Subject"
+          data-pt="Assunto"
+        />
+      </div>
+    </div>
 
-             <li>
-                <a href="#about">About Me</a>
-            </li>
+    <div class="input-group-2">
+      <textarea
+        name="message"
+        placeholder="Your Message"
+        cols="30"
+        rows="10"
+        required
+        data-en="Your Message"
+        data-pt="Sua Mensagem"
+      ></textarea>
+      <input
+        type="submit"
+        value="Send Message"
+        class="btn"
+        data-en="Send Message"
+        data-pt="Enviar Mensagem"
+      />
+    </div>
 
-             <li>
-                <a href="#projects">Projects</a>
-            </li>
+    <!-- Anti-spam honeypot (invisível para humanos) -->
+    <input type="text" name="_honey" style="display:none" />
+  </form>
 
-             <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+  <div
+    id="formMessage"
+    style="display:none; font-size:1.5rem; color:var(--main-color); margin-top:1rem;"
+  ></div>
 
-        <p class="copyright">
-          © Gustavo Honorio | All Rights Reserved
-        </p>
-        
+ <footer class="footer">
+  <div class="social-icons">
+    <a href="https://github.com/GustavoHRdev" target="_blank" rel="noopener noreferrer"><i class="bx bxl-github"></i></a>
+    <a href="https://www.linkedin.com/in/gustavohrdev" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin"></i></a>
+    <a href="mailto:gustavohonorio.GR@gmail.com" title="Enviar email para Gustavo Honorio">
+      <i class="bx bx-envelope"></i>
+    </a>
+
+
+    <a href="https://wa.me/5543996448129" target="_blank" rel="noopener noreferrer"><i class="bx bxl-whatsapp"></i></a>
+  </div>
+
+  <ul class="list">
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <p class="copyright">
+    © Gustavo Honorio | All Rights Reserved
+  </p>
 </footer>
 
 
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
