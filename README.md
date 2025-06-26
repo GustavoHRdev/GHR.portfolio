@@ -3,11 +3,11 @@
 ### 🌐 My Portfolio / Meu Portfólio
 [https://gustavohrdev.github.io/GHR.portfolio/](https://gustavohrdev.github.io/GHR.portfolio/)
 
-> **Nota importante:**  
-> Para melhor experiência, abra o link do portfólio diretamente no navegador (ex: Chrome, Firefox, Safari), pois alguns aplicativos podem não carregar o estilo corretamente.
+> **Nota importante (mobile):**  
+> Para melhor experiência no celular, abra o link do portfólio diretamente em um navegador (ex: Chrome, Firefox, Safari), pois alguns apps podem não carregar o estilo corretamente.
 
-> **Important note:**  
-> For the best experience, please open the portfolio link directly in a web browser (e.g., Chrome, Firefox, Safari), as some apps may not render the styles properly.
+> **Important note (mobile):**  
+> For the best experience on mobile devices, please open the portfolio link directly in a web browser (e.g., Chrome, Firefox, Safari), as some apps may not render the styles properly.
 
 ![Preview do Projeto](image/print-project.PNG)
 
