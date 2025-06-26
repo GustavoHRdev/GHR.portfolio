@@ -1,8 +1,10 @@
 # Gustavo Honorio – Frontend Developer
 
 ### 🌐 My Portfolio / Meu Portfólio
-[https://gustavohrdev.github.io/web-developer-portfolio/](https://gustavohrdev.github.io/web-developer-portfolio/)
+[https://gustavohrdev.github.io/GHR.portfolio/](https://gustavohrdev.github.io/GHR.portfolio/)
 
+
+![Preview do Projeto](image/print-project.PNG)
 
 [🇺🇸 English Version](#english) | [🇧🇷 Versão em Português](#português)
 
