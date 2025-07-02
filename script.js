@@ -4,7 +4,13 @@
 function setLanguage(lang) {
   const elements = document.querySelectorAll('[data-en][data-pt]');
   elements.forEach(el => {
-    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+    if (el.tagName === 'INPUT') {
+      if (el.type === 'submit') {
+        el.value = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-pt');
+      } else {
+        el.placeholder = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-pt');
+      }
+    } else if (el.tagName === 'TEXTAREA') {
       el.placeholder = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-pt');
     } else if (el.tagName === 'A') {
       el.textContent = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-pt');
@@ -13,7 +19,6 @@ function setLanguage(lang) {
     }
   });
 }
-
 
 // ===========================================================
 // FUNÇÃO PARA EXIBIR/ESCONDER .en e .pt NA LISTA DE SOFT SKILLS
