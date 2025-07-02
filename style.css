@@ -96,72 +96,99 @@ body { background: var(--bg-color); color: var(--text-color); }
 }
 
 /* =========================
-   RESPONSIVE
+   RESPONSIVE NAVBAR
 ========================= */
-@media (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
-}
 
-
-/* Navbar desktop: posicionar normalmente */
+/* Navbar padrão (desktop) */
 .navbar {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
 }
 
-/* Para telas pequenas, esconder o menu desktop e mostrar o botão */
+/* Ícone do menu (hambúrguer) escondido por padrão */
+#menu-icon {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  display: none;
+  cursor: pointer;
+}
+
+/* Versão mobile */
+/* Versão mobile */
 @media (max-width: 768px) {
   .navbar {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 1rem 0;
+    z-index: 99;
   }
+
+  .navbar.active {
+    display: flex !important;
+  }
+
   #menu-icon {
     display: block;
   }
 }
 
-#menu-icon{
-    font-size: 3.5rem;
-    color: var(--main-color);
-    display: none;
-}
 
+/* =========================
+   ESTILOS GERAIS
+========================= */
 
 .logo {
-  font-size: 3rem; font-weight: 800; cursor: pointer;
-  color: var(--text-color); transition: transform 0.3s ease-in-out;
+  font-size: 3rem;
+  font-weight: 800;
+  cursor: pointer;
+  color: var(--text-color);
+  transition: transform 0.3s ease-in-out;
   margin-left: 5rem;
 }
-.logo:hover { transform: scale(1.1); }
+.logo:hover {
+  transform: scale(1.1);
+}
 .logo span {
   background: linear-gradient(270deg, var(--main-color-start) 10%, var(--main-color-end) 100%);
-  -webkit-background-clip: text; color: transparent;
+  -webkit-background-clip: text;
+  color: transparent;
   background-clip: text;
 }
-#menu-icon {
-  font-size: 3.5rem; color: var(--main-color); display: none;
-  cursor: pointer;
-}
-.navbar {
-  display: flex; gap: 4rem;
-}
+
 .navbar a {
-  font-size: 1.8rem; font-weight: 500; color: var(--text-color);
-  border-bottom: 3px solid transparent; transition: color 0.3s ease, border-color 0.3s ease;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--text-color);
+  border-bottom: 3px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 .navbar a:hover {
   color: var(--text-color);
-  border-bottom-color: var(--main-color)
+  border-bottom-color: var(--main-color);
 }
+
 .gradient-btn {
-  font-size: 1.8rem; padding: 1rem 2rem; border-radius: 3rem;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
   background: linear-gradient(270deg, var(--main-color-start) 10%, var(--main-color-end) 100%);
-  color: #fff; border: none; cursor: pointer;
-  letter-spacing: 1px; transition: transform 0.3s ease-in-out;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease-in-out;
   white-space: nowrap;
 }
-.gradient-btn:hover { transform: scale(1.05); }
+.gradient-btn:hover {
+  transform: scale(1.05);
+}
+
 
 /* Sections */
 section {
